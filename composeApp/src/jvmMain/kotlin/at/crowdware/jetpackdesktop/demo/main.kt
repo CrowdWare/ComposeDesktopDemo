@@ -2,6 +2,10 @@ package at.crowdware.jetpackdesktop.demo
 
 import Lektion3
 import Lektion4
+import Lektion5
+import Lektion6
+import Lektion7
+import Lektion8
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 
@@ -34,6 +38,10 @@ fun main(args: Array<String>) {
                 "2" -> Lektion2()
                 "3" -> Lektion3()
                 "4" -> Lektion4()
+                "5" -> Lektion5()
+                "6" -> Lektion6()
+                "7" -> Lektion7()
+                "8" -> Lektion8()
                 else -> println("Lektion $args[0] ist nicht vorhanden")
             }
         }
