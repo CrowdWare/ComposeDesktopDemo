@@ -20,7 +20,7 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation(libs.androidx.lifecycle.runtimeCompose)
-
+            implementation(compose.materialIconsExtended)
             implementation("com.darkrockstudios:mpfilepicker:3.1.0")
         }
         commonTest.dependencies {
