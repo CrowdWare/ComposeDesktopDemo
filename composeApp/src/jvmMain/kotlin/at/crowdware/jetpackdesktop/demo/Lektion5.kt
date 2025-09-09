@@ -1,3 +1,5 @@
+package at.crowdware.jetpackdesktop.demo
+
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
