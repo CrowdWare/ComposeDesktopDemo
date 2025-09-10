@@ -40,6 +40,7 @@ fun main(args: Array<String>) {
                 "10" -> Lektion10()
                 "11" -> Lektion11()
                 "12" -> Lektion12()
+                "13" -> Lektion13()
                 else -> println("Lektion $args[0] ist nicht vorhanden")
             }
         }
